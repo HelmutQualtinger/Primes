@@ -11,12 +11,8 @@ proc countprimes n {
             }
         if {$isprime} {
             lappend primes $candidate
-  #          puts $primes
-
         }
-   
     }
     return $primes
 }
-
 puts [ llength [countprimes 10000000 ] ]
