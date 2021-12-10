@@ -1,0 +1,8 @@
+(base) helmutQualtinger@MacBook-Air-von-Helmut ~ % time python3.10 primes.py
+664579
+python3.10 primes.py  99,52s user 0,23s system 99% cpu 1:39,76 total
+(base) helmutQualtinger@MacBook-Air-von-Helmut ~ % time tclsh8.6 primes.tcl
+664579
+tclsh8.6 primes.tcl  50,28s user 0,15s system 99% cpu 50,468 total
+(base) helmutQualtinger@MacBook-Air-von-Helmut ~ % time ./a.out
+Counted 664580 primes./a.out  0,44s user 0,01s system 99% cpu 0,453 total
