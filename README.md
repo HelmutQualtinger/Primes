@@ -1,6 +1,6 @@
 # Why Python is a bad computing language
 
-In the present repository, I have free versions of the same 
+In the present repository, I have three versions of the same 
 algoithm finding the primes among the first 10 
 million integers. In C, in Python and in Tcl my all time 
 favourite not just because of the Tk GUIs which can be used
@@ -15,7 +15,7 @@ development was discontinued 15 years ago and still it
 beats Python by a factor of two.
 
 Syntactally Python is a very rich - mess with useless 
-syntatic sugar such as comprehensions, which are much more
+syntatic sugar such as comprehensions, which are not more
 readable as loops and add nothing semantically.
 
 The worst crime is that it uses strict typing without declaration and performing
@@ -23,7 +23,7 @@ typechecking at runtime, i.e. when the program has already
 been possibly deployed. Which is a logical contradiction
 in terms. The user does not care whether a program crashes
 with a core dump or with a traceback to line whatever in
-the Python Source. Tcl just transfer any type to anytype
+the Python Source. Tcl just transfers any type to any type
 more or less gracefully. Using "0" or even "" as 0 or 0.0
 or false or none is in most cases the right think to do.
 
